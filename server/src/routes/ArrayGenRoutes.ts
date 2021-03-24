@@ -1,8 +1,8 @@
-import { Router } from 'express'
-import { genArray } from '../controllers/arrayGenController'
+import { Router } from "express"
+import { genArray } from "../controllers/arrayGenController"
 
 const router = Router()
 
-router.get("/gen", genArray)
+router.post("/gen", genArray)
 
 export default router
