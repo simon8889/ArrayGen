@@ -1,4 +1,4 @@
-# ArrayGen
+# ArrayGen 🔮
 ## _An online array generetor for your code_
 
 ArrayGen is a tool made in typescript with express and react, ArrayGen generates an array of numbers with the chosen characteristics, ArrayGen arises with the aim of generating inputs for code tests, its utility to test search and sort algorithms. This Array is generated based on certain parameters that can be chosen.
