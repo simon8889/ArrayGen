@@ -1,6 +1,6 @@
 import React from "react"
 import logo from "./logo.svg"
-import {BrowserRouter, Switch, Route} from "react-router-dom"
+import { HashRouter, Switch, Route } from "react-router-dom"
 import "./App.css"
 
 import Home from "./components/Home/Home"
@@ -8,7 +8,7 @@ import Info from "./components/Info/Info"
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<div className="App">
 				<Switch>
 					<Route path="/" exact>
@@ -19,7 +19,7 @@ function App() {
 					</Route>
 				</Switch>
 			</div>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 
